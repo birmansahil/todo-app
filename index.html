@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Gift Shop website" />
+    <meta name="keywords" content="HTML, CSS, Responsive Design, Todo App" />
+    <meta name="author" content="Sahil Birman" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Title & Stylesheet Link -->
+    <title>To-Do App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Container for the app -->
+    <div class="container">
+      <!-- Container for progress bar & progress text -->
+      <div class="progress-card">
+        <div class="progress-bar-container">
+          <div class="progress-bar" style="width: 37.5%"></div>
+        </div>
+        <span class="progress-text">3/8 Completed</span>
+      </div>
+
+      <!-- List of todo tasks -->
+      <ul class="task-list"></ul>
+
+      <!-- Form to add new tasks to the list -->
+      <div class="input-container">
+        <input type="text" id="newTaskInput" placeholder="Add a new task..." />
+        <button id="addTaskButton">Add Task</button>
+      </div>
+    </div>
+
+    <!-- Script -->
+    <script src="script.js"></script>
+  </body>
+</html>

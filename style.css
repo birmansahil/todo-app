@@ -1,4 +1,4 @@
-/*  */
+/* General Styles */
 * {
   margin: 0;
   padding: 0;
@@ -142,7 +142,8 @@ body {
   display: flex;
 }
 
-#newTaskInput {
+#newTaskInput,
+.edit-task-input {
   padding: 10px 15px;
   flex-grow: 1;
   font-size: 16px;
